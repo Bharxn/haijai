@@ -85,7 +85,7 @@ function App() {
 
   return (
     <>
-      <h2> {average} </h2>
+      <h2> {showAverage} </h2>
       {time < 10 ? <h1>status : OK</h1> : <h1>status : Danger</h1>}
       <h1> time : {time} second</h1>
     </>
