@@ -30,7 +30,7 @@ function App() {
           const average = dataArray.reduce((acc, val) => acc + val, 0) / bufferLength;
           setShowAverage(average);
           console.log(average);
-          if (average > 80) {
+          if (average > 75) {
             setBlowDetected(true);
           }else {
             setBlowDetected(false);
