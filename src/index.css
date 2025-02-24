@@ -1,0 +1,18 @@
+#root {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(39, 38, 38);
+}
+
+body {
+  background-color: rgb(39, 38, 38);
+  color: white;
+  margin: auto;
+  overflow-x: hidden;
+}
+
+html {
+  background-color: rgb(39, 38, 38);
+}
